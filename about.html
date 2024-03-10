@@ -1,38 +1,53 @@
 <!Doctype html> 
 <html>
-<head>
-    <title>Welcome to my website!</title>
-</head>
+    <head>
+        <title>About-Jason's Website</title>
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
 <body>
-    <center>
+
     <nav>
-        <img src="./Images/download (1).jpg" alt="">
-        <div>
+        <div class="logo">
+            <img src="./Images/Anime sonic.jpg" alt="">
+        </div>
+        <div class="nav-items">
             <a href="index.html">Home</a>
             <a href="about.html">About Me</a>
             <a href="contact.html">Contact Me</a>
         </div>
-    </nav>
-    </center>
-    <center>
-    <h1>About me!</h1>
-    <p>I am a website developer, as I said before. I really love to make websites, but some of the codes I don't know them off-head. I can't really get paid to make a really good website, But I am ok with some tip's, I f you want to. I am a 5th grader. I get my coding online lessoms from smartribe. You should really try it. It is really Good, and you can learn a lot. You can make this exact SAME website, and also MORE FUN! You can make a game, a awebsite about you, a cartoon, and even a log-in website! My favourite place to watch a movie is losmovies. You can watch movies for free! I like to watch into the spider verse and across the spider verse. I have only watched into the spider verse, but I am yet to watch over the suder verse.</p>
-<select onchange="color(this.value)">
-    <option value"white">White</option>
-    <option value"blue">Blue</option>
-    <option value"green">Green</option>
-    <option value"red">Red</option>
-    <option value"pink">Pink</option>
-    <option value"black">Black</option>
-    <option value"purple">Purple</option>
-</select>
+    </nav> 
 
-<script>
-    function color(value) {
-        document.body.style.backgroundColor=value;
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi! <br>I'm Jason</h1>
+        </div>
+        <div class="hero-image">
+            <img src="./Images/download (1).jpg" alt="">
+        </div>
+    </section>
 
-    }
-</script>
+    <section class="skills">
+        <h1>My skills</h1>
+        <div class="skill-items">
+            <div class="skill-item"><i class="fa-brands fa-html5"></i>
+                <h4>HTML</h4>
+            </div>
+            <div class="skill-item"><i class="fa-brands fa-bootstrap"></i>
+                <h4>BOOTSTRAP</h4>
+            </div>
+            <div class="skill-item"><i class="fa-brands fa-css3"></i>
+                <h4>CSS</h4>
+            </div>
+            <div class="skill-item"><i class="fa-brands fa-js"></i>
+                <h4>JAVASCRIPT</h4>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">MADE WITH ❤️ BY JASON</footer>
 
 </body>
 
